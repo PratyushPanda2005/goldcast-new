@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="p-4 flex justify-center w-full">
+    <nav className="p-4 flex justify-center w-full bg-black">
       <div className="flex w-full max-w-7xl justify-between items-center">
         <div>
           <Image src={GoldcastLogo} alt="Goldcast Logo" />
@@ -80,7 +80,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden absolute top-16 left-0 right-0 bg-white shadow-lg z-50">
+        <div className="md:hidden absolute top-16 left-0 right-0 shadow-lg bg-white z-50">
           <ul className="flex flex-col items-center py-4 space-y-4 text-neutral-500">
             <li>Platform</li>
             <li>Solutions</li>

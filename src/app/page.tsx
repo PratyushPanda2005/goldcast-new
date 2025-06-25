@@ -1,6 +1,7 @@
 import Clients from "./components/clients";
 import Alliance from "./pages/alliance";
 import Hero from "./pages/hero";
+import VideoPage from "./pages/video-page";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
      <Hero/>
      <Clients/>
      <Alliance/>
+     <VideoPage/>
     </main>
   );
 }

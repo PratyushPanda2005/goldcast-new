@@ -17,7 +17,7 @@ const Hero = () => {
             the practical application of AI in their day-to-day work.</p>
             </div>
             <div className='flex justify-center'>
-            <button className='px-6 py-3 max-sm:p-2 rounded-xl bg-gradient-to-b from-[#F65BFF] to-[#D01EDA] w-fit text-xl max-sm:text-sm cursor-pointer flex gap-2 items-center'>Apply Now<span className='h-[1em] w-[1em]'><ChevronRight/></span></button>
+            <button className='px-6 py-3 rounded-xl bg-gradient-to-b from-[#F65BFF] to-[#D01EDA] w-fit text-xl max-sm:text-base cursor-pointer flex gap-2 items-center'>Apply Now<span className=''><ChevronRight/></span></button>
             </div>
           </div>
         </div>

@@ -1,0 +1,18 @@
+<svg width="81" height="81" viewBox="0 0 81 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.7065 24.2852C16.7065 11.0303 27.4517 0.285156 40.7065 0.285156C53.9614 0.285156 64.7065 11.0303 64.7065 24.2852V56.2852C64.7065 69.54 53.9614 80.2852 40.7065 80.2852C27.4517 80.2852 16.7065 69.54 16.7065 56.2852V24.2852ZM24.7065 54.2852C24.7065 63.1217 31.87 70.2852 40.7065 70.2852C49.5431 70.2852 56.7065 63.1217 56.7065 54.2852V26.2852C56.7065 17.4486 49.5431 10.2852 40.7065 10.2852C31.87 10.2852 24.7065 17.4486 24.7065 26.2852V54.2852Z" fill="url(#paint0_radial_1_397)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24.7065 64.2852C11.4517 64.2852 0.706543 53.54 0.706543 40.2852C0.706543 27.0303 11.4517 16.2852 24.7065 16.2852H56.7065C69.9614 16.2852 80.7065 27.0303 80.7065 40.2852C80.7065 53.54 69.9614 64.2852 56.7065 64.2852H24.7065ZM54.7065 56.2852C63.5431 56.2852 70.7065 49.1217 70.7065 40.2852C70.7065 31.4486 63.5431 24.2852 54.7065 24.2852H26.7065C17.87 24.2852 10.7065 31.4486 10.7065 40.2852C10.7065 49.1217 17.87 56.2852 26.7065 56.2852H54.7065Z" fill="url(#paint1_radial_1_397)"/>
+<defs>
+<radialGradient id="paint0_radial_1_397" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(83.5312 40.2852) rotate(-129.305) scale(128.328 130.924)">
+<stop offset="0.19" stop-color="#0ADC7D"/>
+<stop offset="0.48" stop-color="#4E02F1"/>
+<stop offset="0.734139" stop-color="#D01EDA"/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_radial_1_397" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(40.7065 -2.53949) rotate(140.695) scale(128.328 130.924)">
+<stop offset="0.19" stop-color="#0ADC7D"/>
+<stop offset="0.48" stop-color="#4E02F1"/>
+<stop offset="0.734139" stop-color="#D01EDA"/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

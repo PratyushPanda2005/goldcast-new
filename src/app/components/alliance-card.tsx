@@ -9,7 +9,7 @@ const AllianceCard = ({profile, title, position, description}: {profile: StaticI
     <Image className='w-16 md:w-28' src={profile} alt='Profile Photo'/>
     <h1 className='md:text-xl'>{title}</h1>
     <h1 className='text-sm text-neutral-600'>{position}</h1>
-    <p className='max-w-sm max-sm:w-full'>{description}</p>
+    <p className='max-w-sm max-sm:max-w-xs'>{description}</p>
   </div>
   )
 }

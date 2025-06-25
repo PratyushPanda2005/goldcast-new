@@ -6,5 +6,10 @@
   background-size: cover;
 }
 
+#videoPage{
+  background-image: url('../../public/bg/gradient.png');
+  background-position: top;
+  background-size: cover; 
+}
 
 

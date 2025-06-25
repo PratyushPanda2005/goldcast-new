@@ -1,16 +1,25 @@
 'use client'
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import GoldcastLogo from "../../../public/logos/GoldcastLogo.svg"
+import gsap from "gsap";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navRef = useRef(null)
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  useEffect(() => {
+    gsap.from(navRef.current,{
+      y: '-100%',
+      duration: 1
+    })
+  },[])
+
   return (
-    <nav className="p-4 flex justify-center w-full bg-black">
+    <nav ref={navRef} className="p-4 flex justify-center w-full bg-black">
       <div className="flex w-full max-w-7xl justify-between items-center">
         <div>
           <Image src={GoldcastLogo} alt="Goldcast Logo" />
@@ -19,19 +28,19 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <div className="hidden lg:flex text-neutral-500 xl:text-lg">
           <ul className="flex gap-5">
-            <li>Platform</li>
-            <li>Solutions</li>
-            <li>Pricing</li>
-            <li>Customers</li>
-            <li>Events</li>
+            <li className="li-navbar">Platform</li>
+            <li className="li-navbar">Solutions</li>
+            <li className="li-navbar">Pricing</li>
+            <li className="li-navbar">Customers</li>
+            <li className="li-navbar">Events</li>
           </ul>
         </div>
 
         {/* Desktop Buttons */}
         <div className="hidden lg:flex items-center text-white">
           <div className="flex gap-4">
-            <button className="py-2 px-6 border rounded-3xl">Login</button>
-            <button className="py-2 px-6 bg-[#FF4200] rounded-3xl">
+            <button className="py-2 px-6 border rounded-3xl hover:border-transparent hover:bg-white hover:text-[#FF4200] transition-all duration-300 cursor-pointer">Login</button>
+            <button className="py-2 px-6 bg-[#FF4200] rounded-3xl hover:bg-white hover:text-[#FF4200] transition-all duration-300 cursor-pointer">
               Get a Demo
             </button>
           </div>

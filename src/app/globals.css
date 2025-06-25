@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+body{
+  background-color: black;
+}
 
 #alliance{
   background-image: url('../../public/bg/Wrap.png');
@@ -11,6 +14,12 @@
   background-image: url('../../public/bg/gradient.png');
   background-position: top;
   background-size: cover; 
+}
+
+@layer utilities {
+  .li-navbar {
+    @apply cursor-pointer hover:text-neutral-300 transition-all duration-300;
+  }
 }
 
 

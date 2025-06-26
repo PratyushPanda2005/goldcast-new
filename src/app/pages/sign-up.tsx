@@ -1,7 +1,10 @@
+'use client'
 import React from "react";
 import SectionTitle from "../components/section-title";
+import { ToastContainer, toast } from 'react-toastify';
 
 const SignUp = () => {
+  const notify = () => toast("Wow so easy!");
   return (
     <section
         style={{backgroundImage: "url(/bg/signupBg.png)",backgroundSize: 'cover',
@@ -42,9 +45,10 @@ const SignUp = () => {
                   className="border-2 border-neutral-500 w-full p-4 rounded-2xl text-lg md:text-xl"
                   placeholder="Company Name"
                 />
-                <button className="w-full text-xl py-4 bg-gradient-to-b from-[#F65BFF] to-[#D01EDA] rounded-xl">
+                <button onClick={notify} className="w-full text-xl py-4 bg-gradient-to-b from-[#F65BFF] to-[#D01EDA] rounded-xl hover:bg-white hover:from-white hover:to-white transition-all duration-300 hover:text-[#D01EDA] hover:scale-105 cursor-pointer">
                     Apply for Invite
                 </button>
+                <ToastContainer />
               </div>
             </div>
           </div>
